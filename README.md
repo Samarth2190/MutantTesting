@@ -1,7 +1,7 @@
 ## Mutation Testing Framework (Node.js) – DevOps Project
 
-**Student Name**: _[Your Name]_  
-**Registration No**: _[Your Registration Number]_  
+**Student Name**: _Samarth Ruia_  
+**Registration No**: _23FE10CSE00563_  
 **Course**: CSE3253 DevOps [PE6]  
 **Semester**: VI (2025–2026)  
 **Project Type**: CI/CD + Quality Engineering (Mutation Testing)  
