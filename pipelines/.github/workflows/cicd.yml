@@ -36,4 +36,3 @@ jobs:
         with:
           name: stryker-report
           path: reports/mutation/*
-
