@@ -10,4 +10,3 @@ function calculateInvoiceTotal ({ price, discountRate, taxRate }) {
 }
 
 export { calculateInvoiceTotal }
-

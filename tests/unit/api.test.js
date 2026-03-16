@@ -32,4 +32,3 @@ describe('api', () => {
     expect(res.body.error).to.have.property('message')
   })
 })
-

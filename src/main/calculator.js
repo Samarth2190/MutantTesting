@@ -24,4 +24,3 @@ function calculateDiscount (price, discountRate) {
 }
 
 export { calculateDiscount }
-

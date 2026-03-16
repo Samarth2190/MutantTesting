@@ -13,4 +13,3 @@ describe('pricingService', () => {
       .to.throw('price must be a valid number')
   })
 })
-

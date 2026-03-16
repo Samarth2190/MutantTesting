@@ -19,4 +19,3 @@ function assertInRangeInclusive (value, name, min, max) {
 }
 
 export { assertNumber, assertNonNegative, assertInRangeInclusive }
-

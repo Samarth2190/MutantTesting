@@ -20,4 +20,3 @@ describe('calculateDiscount', () => {
     expect(result).to.equal(0)
   })
 })
-

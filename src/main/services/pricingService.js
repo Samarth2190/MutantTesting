@@ -24,4 +24,3 @@ function calculatePricing ({ price, discountRate, taxRate }) {
 }
 
 export { calculatePricing }
-

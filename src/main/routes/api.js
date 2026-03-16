@@ -24,4 +24,3 @@ router.post('/calculate', (req, res) => {
 })
 
 export { router as apiRouter }
-

@@ -15,4 +15,3 @@ describe('tax', () => {
     expect(() => calculateTax(100, 1.1)).to.throw('taxRate must be between 0 and 1')
   })
 })
-

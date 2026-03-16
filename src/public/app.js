@@ -57,4 +57,3 @@ form.addEventListener('submit', async (e) => {
 })
 
 resetBtn.addEventListener('click', resetForm)
-

@@ -11,4 +11,3 @@ describe('invoice', () => {
     expect(() => calculateInvoiceTotal({ price: -1, discountRate: 0.1, taxRate: 0.05 })).to.throw('price must be >= 0')
   })
 })
-

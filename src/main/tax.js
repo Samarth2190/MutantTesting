@@ -11,4 +11,3 @@ function calculateTotalWithTax (subtotal, taxRate) {
 }
 
 export { calculateTax, calculateTotalWithTax }
-
