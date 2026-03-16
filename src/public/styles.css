@@ -1,0 +1,124 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 28px 16px 40px;
+}
+
+.header h1 {
+  margin: 0 0 6px;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: #a3a3a3;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 18px;
+  margin: 14px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.field span {
+  display: block;
+  font-size: 12px;
+  color: #cbd5e1;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.25);
+  color: #e5e7eb;
+  outline: none;
+}
+
+input:focus {
+  border-color: rgba(56, 189, 248, 0.7);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+.actions {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 6px;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #38bdf8;
+  color: #00121a;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e5e7eb;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.result {
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px 0 0;
+}
+
+.muted { color: #a3a3a3; }
+
+.error {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  color: #fecaca;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  color: #a3a3a3;
+}
+
+.footer a { color: #93c5fd; text-decoration: none; }
+.dot { opacity: 0.6; }
+
+@media (max-width: 760px) {
+  .grid { grid-template-columns: 1fr; }
+  .actions { justify-content: stretch; }
+  button { width: 100%; }
+}
+
